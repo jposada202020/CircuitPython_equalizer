@@ -3,7 +3,7 @@ Introduction
 
 
 .. image:: https://readthedocs.org/projects/circuitpython-equalizer/badge/?version=latest
-    :target: https://circuitpython-equalizer.readthedocs.io/
+    :target: https://circuitpython-equalizer.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 
