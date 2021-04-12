@@ -3,8 +3,8 @@
 # SPDX-License-Identifier: MIT
 
 """
-`equalizer.equalizer`
-=======================
+`equalizer`
+===========
 """
 
 import math
@@ -41,16 +41,10 @@ def rectangle_helper(
     :param palette: palette object to be used to draw the rectangle
 
     :param bitmap: bitmap for the rectangle to be drawn
-    :param bool bitmaptool: uses :py:func:`~bitmaptools.draw_line` to draw the rectanlge.
+    :param bool bitmaptool: uses :py:func:`~bitmaptools.draw_line` to draw the rectangle.
      when `False` uses :py:func:`~vectorio.Rectangle`
-
     :return: None
     :rtype: None
-
-             ┌───────────────────────┐
-             │                       │
-             │                       │
-     (x0,y0) └───────────────────────┘
 
     """
     if bitmaptool:

@@ -34,6 +34,8 @@ or individual libraries can be installed using
 Usage Example
 =============
 
+.. image:: https://raw.githubusercontent.com/jposada202020/CircuitPython_equalizer/main/docs/equalizer.gif
+
 Please see the ``equalizer_simlpetest.py`` example for initial reference
 
 
