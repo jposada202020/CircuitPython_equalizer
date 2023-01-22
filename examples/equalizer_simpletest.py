@@ -30,7 +30,7 @@ my_equa = Equalizer(
     pad_x=2,
 )
 
-my_group = displayio.Group(max_size=3)
+my_group = displayio.Group()
 my_group.append(my_equa)
 display.show(my_group)  # add high level Group to the display
 

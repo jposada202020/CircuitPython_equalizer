@@ -86,7 +86,7 @@ class Equalizer(Widget):
     .. code-block:: python
 
         my_equalizer= Equal(20, 30) # instance the equalizer at x=20, y=30
-        my_group = displayio.Group(max_size=10) # make a group that can hold 10 items
+        my_group = displayio.Group() # make a group
         my_group.append(my_equalizer) # Add my_equalizer to the group
 
         #
@@ -137,20 +137,7 @@ class Equalizer(Widget):
         **kwargs,
     ) -> None:
 
-        # TODO Segment display              [✓]
-        # TODO SEGMENT level logic          [✓]
-        # TODO Animation function           [✓]
-        # TODO Animated Gifs                [✓]
-        # TODO SimpleTest example           [✓]
-        # TODO Features docs                [✓]
-        # TODO PNGs                         [✓]
-        # TODO Type Annotations             [✓]
-        # TODO API example inclusion        [✓]
-        # TODO API RST inclusion            [✓]
-        # TODO Black Pylint example         [✓]
-        # TODO Black Pylint __init__        [✓]
-
-        super().__init__(**kwargs, max_size=3)
+        super().__init__(**kwargs)
 
         self._background_color = background_color
 
@@ -172,8 +159,8 @@ class Equalizer(Widget):
         self._screen_palette = displayio.Palette(11)
         self._screen_palette[10] = self._background_color
 
-        self._bar_inventory = list()
-        self._segment_inventory = list()
+        self._bar_inventory = []
+        self._segment_inventory = []
         self._hor_bar_setup()
 
         self._screen_tilegrid = displayio.TileGrid(
