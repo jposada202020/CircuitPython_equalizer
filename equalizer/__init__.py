@@ -8,7 +8,7 @@
 """
 
 import math
-import vectorio
+from vectorio import Rectangle
 
 try:
     import bitmaptools
@@ -52,12 +52,13 @@ def rectangle_helper(
             bitmap, x0, y0, x0 + width - 1, y0 + height - 1, color_index
         )
     else:
-        rect = vectorio.Rectangle(width, height)
-        vectorio.VectorShape(
-            shape=rect,
+        Rectangle(
             pixel_shader=palette,
+            width=width,
+            height=height,
             x=x0,
             y=y0,
+            color_index=color_index,
         )
 
 
