@@ -10,7 +10,7 @@ requires = [
 ]
 
 [project]
-name = "circuitpython-styles"
+name = "circuitpython-equalizer"
 description = "Equalizer Graphic Representation for CircuitPython"
 version = "0.0.0+auto.0"
 readme = "README.rst"
