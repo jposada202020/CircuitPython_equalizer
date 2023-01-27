@@ -17,7 +17,7 @@ readme = "README.rst"
 authors = [
     {name = "Jose D. Montoya", email = "equalizer@mailmeto.mozmail.com"}
 ]
-urls = {Homepage = "https://github.com/jposada202020/CircuitPython_equalize"}
+urls = {Homepage = "https://github.com/jposada202020/CircuitPython_equalizer.git"}
 keywords = [
     "hardware",
     "micropython",
