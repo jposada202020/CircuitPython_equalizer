@@ -34,6 +34,9 @@ from adafruit_displayio_layout.widgets.widget import Widget
 from equalizer import rectangle_helper
 from equalizer import rgb
 
+__version__ = "0.0.0-auto.0"
+__repo__ = "https://github.com/jposada202020/CircuitPython_equalizer.git"
+
 
 class Equalizer(Widget):
     """An equalizer widget.  The origin is set using ``x`` and ``y``.
