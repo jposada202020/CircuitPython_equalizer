@@ -15,7 +15,7 @@ description = "Equalizer Graphic Representation for CircuitPython"
 version = "0.0.0+auto.0"
 readme = "README.rst"
 authors = [
-    {name = "Jose D. Montoya", email = "equalizer@mailmeto.mozmail.com"}
+    {name = "JDM", email = "equalizer@mmozmail.com"}
 ]
 urls = {Homepage = "https://github.com/jposada202020/CircuitPython_equalizer.git"}
 keywords = [
@@ -43,7 +43,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-modules = ["CircuitPython_Equalizer"]
+packages = ["equalizer"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}

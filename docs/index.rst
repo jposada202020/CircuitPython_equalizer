@@ -29,10 +29,3 @@ Table of Contents
     :caption: Other Links
 
     Download <https://github.com/jposada202020/CircuitPython_equalizer/releases/latest>
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
